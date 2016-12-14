@@ -15,6 +15,14 @@ app.get('/', function (req, res) {
 	res.render('index');
 })
 
+app.get('/signin', function (req, res) {
+	res.render('index');
+})
+
+app.get('/signup', function (req, res) {
+	res.render('index');
+})
+
 //lanzar nuestro servicio web si hay un error siempre pasarle la función precess con valor diferente a 0 es decir 1
 
 app.listen(3000, function (err){

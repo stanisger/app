@@ -11,11 +11,19 @@
   "license": "MIT",
   "dependencies": {
     "materialize-css": "^0.97.8",
+    "page": "^1.7.1",
+    "page.js": "^4.13.3",
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
+    "babelfy": "^1.1.0",
+    "browserify": "^13.1.1",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.0.0"
+    "gulp-sass": "^3.0.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "builds": "gulp "
   }
 }
