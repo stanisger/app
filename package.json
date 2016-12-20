@@ -10,10 +10,12 @@
   "author": "platzi",
   "license": "MIT",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "materialize-css": "^0.97.8",
     "page": "^1.7.1",
     "page.js": "^4.13.3",
-    "pug": "^2.0.0-beta6"
+    "pug": "^2.0.0-beta6",
+    "yo-yo": "^1.3.1"
   },
   "devDependencies": {
     "babelfy": "^1.1.0",
@@ -24,6 +26,7 @@
     "watchify": "^3.7.0"
   },
   "scripts": {
-    "builds": "gulp "
+    "builds": "gulp ",
+    "start": "gulp watch & node server.js"
   }
 }
